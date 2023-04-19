@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+    --background: #E5E5E5;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--background);
+    font-family: "Poppins", sans-serif;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu h1 {
+    width: 6.18rem;
+    height: 1.5rem;
+
+    font-weight: 300;
+    font-size: 1rem;
+    color: var(--purple);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile {
+    width: 13.31rem;
+    height: 13.31rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: solid 3px var(--purple);
+    border-radius: 50%;
+}
+
+.profile img {
+    width: 12.50rem;
+    height: 12.50rem;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.insta-user {
+    width: 6.18rem;
+    height: 1.5rem;
+    padding: 0.93rem;
+
+    font-weight: 300;
+    font-size: 1rem;
+    color: var(--purple);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link a{
+
+    width: 20.5rem;
+    height: 3.05rem;
+
+    border: #BB99DD solid 2px;
+    border-radius: 4px;
+
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--purple);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transform: scale(0.9);
+}
+
+.nav-link a:hover {
+    transform: scale(1);
+}
+
+.link {
+    margin-top: 1rem;
+}
+
+.social-media {
+    width: 14.75rem;
+    height: 1.50rem;
+
+    margin-top: 4.25rem;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1.81rem;
+}
+
+.social-link {
+   transform: scale(0.9);
+
+   transform: ease 0.3s;
+}
+
+.social-link:hover {
+    transform: scale(1);
+ }
